@@ -1,7 +1,22 @@
-# React--Calculator
+# React-Calculator 
+
+## Introduction
+In this project you will learn how to build a very simple React application. You will work in a real-world project for a fictional company that requires your help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
+
+## Tools
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- npm
+- CSS
+- ES6
 
 ## The Project
+
 Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
+
+![Calculator Screenshot](https://github.com/microverseinc/project-react-calculator/blob/master/images/calculator.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
