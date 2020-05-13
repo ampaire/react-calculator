@@ -1,7 +1,13 @@
 # React-Calculator 
 
+![Calculator Screenshot](https://github.com/microverseinc/project-react-calculator/blob/master/images/calculator.png?raw=true)
+
+
 ## Introduction
 In this project you will learn how to build a very simple React application. You will work in a real-world project for a fictional company that requires your help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
+
+## Demo Link
+[Calculator](https://calc-in-react.herokuapp.com/)
 
 ## Tools
 - Node.js
@@ -16,7 +22,6 @@ In this project you will learn how to build a very simple React application. You
 
 Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
 
-![Calculator Screenshot](https://github.com/microverseinc/project-react-calculator/blob/master/images/calculator.png?raw=true)
 
 ## SETTING UP
 
@@ -90,7 +95,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 #### Getting Started
-Clone repo and open index.html with your favorite browser.
+Clone this repo 
+```$https://github.com/ampaire/react-calculator.git```
 
 #### Prerequisites
 Web browser like Chrome, Mozilla or similar.
