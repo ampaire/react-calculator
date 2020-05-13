@@ -5,7 +5,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <h1>This is a react application</h1>,
+  <h1 class= 'text-center'>This is a react application</h1>,
   document.getElementById('root')
 );
 
