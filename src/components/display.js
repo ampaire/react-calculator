@@ -1,3 +1,6 @@
+/* eslint-disable react/require-default-props */
+/* eslint-disable jsx-quotes */
+
 import React from "react";
 import PropTypes from "prop-types";
 
