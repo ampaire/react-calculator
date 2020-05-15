@@ -4,7 +4,7 @@
 import React from 'react';
 import Display from './display';
 import ButtonPanel from './button-panel';
-import '../styles/App.css';
+import '../styles/index.css';
 
 function App() {
   return (
