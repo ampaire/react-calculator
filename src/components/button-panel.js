@@ -30,7 +30,7 @@ const ButtonPanel = () => (
       <Button name='+' btn='btn' />
     </div>
     <div className='row btn-group'>
-      <Button name='0' btn='btn' wide color='grey' />
+      <Button name='0' btn='btn' size color='grey' />
       <Button name='.' btn='btn' color='grey' />
       <Button name='=' btn='btn' />
     </div>
