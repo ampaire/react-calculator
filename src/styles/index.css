@@ -30,12 +30,8 @@ body {
   height: 60px;
 }
 
-.btn-group > btn {
-  border: rgb(182, 178, 178) 1px solid;
-}
-
 .btn {
-  border: 1px solid;
+  border: rgb(182, 178, 178) 1px solid;
   font-size: 20px;
   height: 100%;
   text-align: center;
