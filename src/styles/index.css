@@ -30,10 +30,13 @@ body {
   height: 60px;
 }
 
+.btn-group > btn {
+  border: rgb(29, 28, 28) 1px solid;
+}
+
 .btn {
   border: 1px solid;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 20px;
   height: 100%;
   text-align: center;
 }
