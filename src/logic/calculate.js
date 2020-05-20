@@ -16,6 +16,18 @@ const calculate = (calculator, btnName) => {
     }
     return { total, next, operation };
   }
+
+  if (btnName === '.') {
+    if (next) {
+      if (next.includes('.')) return {};
+      return { total, next: `${next}.`, operation };
+    }
+    if (total) {
+      if (total.includes('.')) return {};
+      return { total: `${total}.`, next, operation };
+    }
+    return { total: '0.', next, operation };
+  }
 };
 
 export default calculate;
