@@ -23,9 +23,14 @@ const calculate = (calculator, btnName) => {
       next = null;
       operation = null;
     }
+    else if (next === '0' && operation === '/') {
+      return {
+        error: 'Error: E',
+      };
+    }
   }
 
-  if (['+', '-', 'x', '÷', '%'].includes(btnName)) {
+  if (['+', '-', 'x', '/', '%'].includes(btnName)) {
     operation = btnName;
   } else if (operation) {
     total += btnName;
