@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto 0 auto;
-  width: 600px;
+  width: 700px;
   height: 500px;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .btn-group {
-  height: 60px;
+  height: 100px;
 }
 
 .btn {
