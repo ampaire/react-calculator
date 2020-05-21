@@ -5,17 +5,26 @@ import React from 'react';
 import Display from './display';
 import ButtonPanel from './button-panel';
 import '../styles/index.css';
+import calculate from "../logic/calculate";
 
 export default class Application extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+     this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick = (btnName) => {
+    this.setState = calculate(this.state, btnName);
   }
   render() {
     return (
       <div className="app">
         <Display />
-        <ButtonPanel />
+        <ButtonPanel handleClick={this.handleClick} />
       </div>
     );
   }
