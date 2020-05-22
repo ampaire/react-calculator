@@ -18,19 +18,19 @@ export default class Application extends React.Component {
      this.handleClick = this.handleClick.bind(this);
   }
   handleClick = (btnName) => {
-    this.setState = calculate(this.state, btnName);
+    this.setState(calculate(this.state, btnName));
   }
   render() {
-        let calc = '';
-    const { total, next } = this.state;
-    if (total !== null) {
-      calc = total;
-    } else if (next !== null) {
-      calc = next;
+    let result;
+    const { next,total } = this.state;
+    if (next !== null) {
+      result = next;
+    } else if (total !== null) {
+      result = total;
     }
     return (
       <div className="app">
-        <Display result="0" display="display" />
+        <Display result={result} />
         <ButtonPanel handleClick={this.handleClick} />
       </div>
     );

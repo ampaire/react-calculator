@@ -4,9 +4,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Display = ({ result }) => <input type="text" defaultValue={result} />;
+const Display = props => { 
+  const { result } = props;
+  return (
+  <div className="display"> 
+  {result} </div> 
+  );
+};
 
-Display.defaultValue = { result: "0" };
+Display.prop = { result: PropTypes.string};
+
+Display.defaultProps = { result: "0" };
 Display.propTypes = { result: PropTypes.string.isRequired };
 
 export default Display;

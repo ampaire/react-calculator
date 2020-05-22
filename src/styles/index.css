@@ -13,10 +13,9 @@ body {
   margin: 0 auto 0 auto;
   width: 700px;
   height: 500px;
-  background-color: chartreuse;
 }
 
-.app input {
+.display {
   background-color: grey;
   color: #fff;
   direction: rtl;

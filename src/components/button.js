@@ -2,13 +2,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ name, btn, color, wide }) => {
+const Button = ({ name, btn, color, wide, clickHandler }) => {
   const style = {
     width: wide ? "50%" : "25%",
     backgroundColor: color,
   };
   return (
-    <button type="button" className={btn} style={style}>
+    <button type="button" className={btn} style={style}  onClick={() => clickHandler(name)}>
       {name}
     </button>
   );
