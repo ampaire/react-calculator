@@ -21,6 +21,13 @@ export default class Application extends React.Component {
     this.setState = calculate(this.state, btnName);
   }
   render() {
+        let calc = '';
+    const { total, next } = this.state;
+    if (total !== null) {
+      calc = total;
+    } else if (next !== null) {
+      calc = next;
+    }
     return (
       <div className="app">
         <Display result="0" display="display" />
