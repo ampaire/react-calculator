@@ -8,7 +8,8 @@ const Display = props => {
   const { result } = props;
   return (
   <div className="display"> 
-  {result} </div> 
+    {result} 
+  </div> 
   );
 };
 
