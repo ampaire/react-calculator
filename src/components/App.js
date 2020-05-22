@@ -23,7 +23,7 @@ export default class Application extends React.Component {
   render() {
     return (
       <div className="app">
-        <Display />
+        <Display result="0" display="display" />
         <ButtonPanel handleClick={this.handleClick} />
       </div>
     );

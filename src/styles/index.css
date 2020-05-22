@@ -13,16 +13,17 @@ body {
   margin: 0 auto 0 auto;
   width: 700px;
   height: 500px;
+  background-color: chartreuse;
 }
 
-.display {
+.app input {
   background-color: grey;
   color: #fff;
   direction: rtl;
   flex-direction: row;
   font-size: 50px;
   font-weight: bold;
-  height: 30px;
+  height: 100px;
   padding: 8px;
 }
 
