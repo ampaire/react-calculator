@@ -2,13 +2,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Button = ({ name, btn, color, wide, clickHandler }) => {
+const Button = props => {
+  const {
+    name, btn, color, wide, clickHandler,
+  } = props;
   const style = {
-    width: wide ? "50%" : "25%",
+    width: wide ? '50%' : '25%',
     backgroundColor: color,
   };
   return (
-    <button type="button" className={btn} style={style}  onClick={() => clickHandler(name)}>
+    <button type="button" className={btn} style={style} onClick={() => clickHandler(name)}>
       {name}
     </button>
   );

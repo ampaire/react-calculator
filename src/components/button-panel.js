@@ -5,7 +5,7 @@ import Button from "./button";
 import PropTypes from "prop-types";
 
 
-const ButtonPanel = (clickHandler) => (
+const ButtonPanel = ({clickHandler}) => (
   <div>
     <div className="row btn-group">
       <Button name="AC" btn="btn" color="#e0e0e0" clickHandler={clickHandler} />

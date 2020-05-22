@@ -31,7 +31,7 @@ export default class Application extends React.Component {
     return (
       <div className="app">
         <Display result={result} />
-        <ButtonPanel handleClick={this.handleClick} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
