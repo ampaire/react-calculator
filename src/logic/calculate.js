@@ -23,17 +23,11 @@ const calculate = (calculator, btnName) => {
     }
   }
   if (sign.includes(btnName)) {
-    if (total) operation = btnName;
+    operation = btnName;
   } else if (operation && nums.includes(btnName)) {
     next = next ? next + btnName : btnName;
-  } else if (total && nums.includes(btnName)) {
-    total = btnName;
   } else if (nums.includes(btnName)) {
     total = total ? total + btnName : btnName;
-  } else if (!next && !operation && btnName === '.') {
-    total = total.includes(btnName) ? total : total + btnName;
-  } else if (total && operation && btnName === '.') {
-    next = next.includes(btnName) ? next : next + btnName;
   }
   return { total, next, operation };
 };
