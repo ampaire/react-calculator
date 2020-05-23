@@ -12,8 +12,10 @@ const calculate = (calculator, btnName) => {
     if (next) next *= -1;
     operation = null;
   }
+
   if (btnName === '%') {
-    if (total) next = 0.01 * total;
+    next = (0.01 * total).toString();
+    operation = '%';
   }
   if (btnName === '=') {
     if (total && next && operation) {
