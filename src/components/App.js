@@ -15,23 +15,22 @@ export default class Application extends React.Component {
       next: null,
       operation: null,
     };
-     this.handleClick = this.handleClick.bind(this);
+
+    this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(btnName) {
-    this.setState(calculate(this.state, btnName));
+
+  handleClick(buttonName) {
+    // eslint-disable-next-line no-unused-vars
+    const dataObject = this.state;
+    this.setState(dataObject => calculate(dataObject, buttonName));
   }
+
+
   render() {
-    let result;
-    const { next,total } = this.state;
-    if (next !== null) {
-      result = next;
-    } else if (total !== null) {
-      result = total;
-    }
+    const { total, next, operation } = this.state;
     return (
       <div className="app">
-        <Display result={result} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <Display operation={operation} next={next || '0'} total={total || '0'} />       <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
