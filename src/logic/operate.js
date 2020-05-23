@@ -9,7 +9,7 @@ const operate = (numberOne, numberTwo, operation) => {
       return one.minus(two).toString();
     case 'X':
       return one.times(two).toString();
-    case '÷':
+    case '/':
       if (two.toString() === '0') {
         return '0';
       }
