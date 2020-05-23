@@ -17,7 +17,7 @@ export default class Application extends React.Component {
     };
      this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = (btnName) => {
+  handleClick(btnName) {
     this.setState(calculate(this.state, btnName));
   }
   render() {
