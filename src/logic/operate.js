@@ -11,7 +11,7 @@ const operate = (numberOne, numberTwo, operation) => {
       return one.times(two).toString();
     case '/':
       if (two.toString() === '0') {
-        return '0';
+        return 'Error';
       }
       return one.div(two).toString();
     default:
