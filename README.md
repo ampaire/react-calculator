@@ -131,22 +131,22 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### #CODE SPLITTING
+#### #CODE SPLITTING
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-#### ANALYSING THE BUNDLE SIZE
+##### ANALYSING THE BUNDLE SIZE
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### MAKING A PROGRESSIVE WEB APP
+#### MAKING A PROGRESSIVE WEB APP
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### ADVANCED CONFIGURATION
+#### ADVANCED CONFIGURATION
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### DEPLOYMENT
+#### DEPLOYMENT
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
@@ -154,7 +154,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-#### Using this project
+### USING THIS PROJECT
 To use this project you need to have the following pre-installed
 - [Node](https://nodejs.org/en/download/)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
@@ -168,30 +168,30 @@ To use this project you need to have the following pre-installed
 `$ npm start`
 
 
-#### Prerequisites
+#### PREREQUISITES
 Web browser like Chrome, Mozilla or similar.
 
-### Original Project Source
+### PROJECT SOURCE
 https://github.com/microverseinc/project-react-calculator/blob/master/README.md
 
-### Github Repo
+### REPOSITORY
 https://github.com/ampaire/react-calculator
 
-👤 **Author**
+### 👤 **AUTHOR**
 - Github-> [@ampaire](https://github.com/ampaire)
 - Twitter-> [@AmpaPhem](https://twitter.com/AmpaPhem)
 - LinkedIn-> [Ampaire Phemia](https://www.linkedin.com/in/ampaire-phemia-b41619181)
 
-## 🤝 Contributing
+### 🤝 CONTRIBUTING
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ampaire/react-calculator/issues).
 
-## Show your support
+## SHOW SUPPORT
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## ACKNOWLEDGMENTS
 
 - Hat tip to anyone whose code was used
 - Inspiration
