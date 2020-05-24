@@ -7,16 +7,17 @@ const calculate = (calculator, btnName) => {
   if (btnName === 'AC') {
     [total, next, operation] = [null, null, null];
   }
+
   if (btnName === '+/-') {
-    if (total) total *= -1;
-    if (next) next *= -1;
-    operation = null;
+    total = (total * (-1)).toString();
+    next = (next * (-1)).toString();
   }
 
   if (btnName === '%') {
     next = (0.01 * total).toString();
     operation = '%';
   }
+
   if (btnName === '=') {
     if (total && next && operation) {
       total = operate(total, next, operation);
@@ -24,6 +25,7 @@ const calculate = (calculator, btnName) => {
       operation = null;
     }
   }
+
   if (sign.includes(btnName)) {
     operation = btnName;
   } else if (operation && nums.includes(btnName)) {

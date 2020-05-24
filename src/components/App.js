@@ -21,8 +21,6 @@ export default class Application extends React.Component {
   }
 
   handleClick(buttonName) {
-    // eslint-disable-next-line no-unused-vars
-    const dataObject = this.state;
     this.setState(dataObject => calculate(dataObject, buttonName));
   }
 
