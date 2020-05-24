@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({
- name, btn, color, wide, clickHandler 
+  name, btn, color, wide, clickHandler,
 }) => {
   const style = {
     width: wide ? '50%' : '25%',

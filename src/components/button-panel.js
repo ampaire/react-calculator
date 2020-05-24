@@ -1,8 +1,8 @@
 /* eslint-disable jsx-quotes */
 
-import React from "react";
-import Button from "./button";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Button from './button';
 
 
 const ButtonPanel = ({ clickHandler }) => (

@@ -4,7 +4,7 @@
 import React from 'react';
 import Display from './display';
 import ButtonPanel from './button-panel';
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 import '../styles/index.css';
 
 export default class Application extends React.Component {
@@ -31,7 +31,9 @@ export default class Application extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <div className="app">
-        <Display operation={operation} next={next || '0'} total={total || '0'} />       <ButtonPanel clickHandler={this.handleClick} />
+        <Display operation={operation} next={next || '0'} total={total || '0'} />
+        {' '}
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
