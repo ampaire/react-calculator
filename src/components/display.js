@@ -11,6 +11,7 @@ class Display extends React.Component {
   }
 }
 
+
 Display.defaultProps = {
   total: "0",
   next: null,

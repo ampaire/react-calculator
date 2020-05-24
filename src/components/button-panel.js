@@ -40,6 +40,7 @@ const ButtonPanel = ({ clickHandler }) => (
       <Button name="0" btn="btn" wide color="#e0e0e0" clickHandler={clickHandler} />
       <Button name="." btn="btn" color="#e0e0e0" clickHandler={clickHandler} />
       <Button name="=" btn="btn" clickHandler={clickHandler} />
+
     </div>
   </div>
 );
