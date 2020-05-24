@@ -1,9 +1,10 @@
-
 /* eslint-disable jsx-quotes */
+/* eslint-disable no-unused-vars */
 
 import React from 'react';
 import Display from './display';
 import ButtonPanel from './button-panel';
+import calculate from "../logic/calculate";
 import '../styles/index.css';
 import calculate from "../logic/calculate";
 
@@ -15,6 +16,7 @@ export default class Application extends React.Component {
       next: null,
       operation: null,
     };
+
 
     this.handleClick = this.handleClick.bind(this);
   }
