@@ -6,7 +6,6 @@ import Display from './display';
 import ButtonPanel from './button-panel';
 import calculate from "../logic/calculate";
 import '../styles/index.css';
-import calculate from "../logic/calculate";
 
 export default class Application extends React.Component {
   constructor(props) {
