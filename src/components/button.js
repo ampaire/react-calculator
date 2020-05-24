@@ -1,14 +1,16 @@
 /* eslint-disable react/require-default-props */
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Button = ({ name, btn, color, wide, clickHandler }) => {
+const Button = ({
+ name, btn, color, wide, clickHandler 
+}) => {
   const style = {
     width: wide ? '50%' : '25%',
     backgroundColor: color,
   };
   return (
-    <button type="button" className={btn} style={style} onClick={() => clickHandler(name)} >
+    <button type="button" className={btn} style={style} onClick={() => clickHandler(name)}>
       {name}
     </button>
   );
@@ -24,7 +26,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   wide: false,
-  color: "orange",
+  color: 'orange',
 
 };
 

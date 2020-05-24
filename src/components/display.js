@@ -1,8 +1,9 @@
+/* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/require-default-props */
 /* eslint-disable jsx-quotes */
 
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 class Display extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Display extends React.Component {
 
 
 Display.defaultProps = {
-  total: "0",
+  total: '0',
   next: null,
   operation: null,
 };
