@@ -23,7 +23,6 @@ const calculate = (calculator, btnName) => {
       next = null;
       operation = null;
     }
-
   }
   if (sign.includes(btnName)) {
     operation = btnName;
