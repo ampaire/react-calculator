@@ -8,9 +8,13 @@
 ## INTRODUCTION
 In this project you will learn how to build a very simple React application. You will work in a real-world project for a fictional company that requires your help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
 
+### THE PROJECT
+
+Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
+
 ## [Demo Link](https://magic-calculator.netlify.app/)
 
-## TOOLS
+### TOOLS
 - Node.js
 - React
 - React-DOM
@@ -19,12 +23,9 @@ In this project you will learn how to build a very simple React application. You
 - CSS
 - ES6
 
-## THE PROJECT
 
-Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
-
-#### PREREQUISITES
-Web browser like Chrome, Mozilla or similar.
+### PREREQUISITES
+Web browser like Chrome, Mozilla, safari etc.
 
 ### PROJECT SOURCE
 https://github.com/microverseinc/project-react-calculator/blob/master/README.md
