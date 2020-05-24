@@ -139,24 +139,23 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/co
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
-
+### MAKING A PROGRESSIVE WEB APP
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+### ADVANCED CONFIGURATION
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+### DEPLOYMENT
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+ `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 #### Using this project
-To use this project you nedd to have the following pre installed
+To use this project you need to have the following pre-installed
 - [Node](https://nodejs.org/en/download/)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 1. Clone this repo 
