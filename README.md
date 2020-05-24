@@ -23,6 +23,15 @@ In this project you will learn how to build a very simple React application. You
 
 Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
 
+#### PREREQUISITES
+Web browser like Chrome, Mozilla or similar.
+
+### PROJECT SOURCE
+https://github.com/microverseinc/project-react-calculator/blob/master/README.md
+
+### REPOSITORY
+https://github.com/ampaire/react-calculator
+
 
 ### SETTING UP
 
@@ -167,15 +176,6 @@ To use this project you need to have the following pre-installed
 3. Once the installationprocess is finished, run the following command to open the app in your default prowser
 `$ npm start`
 
-
-#### PREREQUISITES
-Web browser like Chrome, Mozilla or similar.
-
-### PROJECT SOURCE
-https://github.com/microverseinc/project-react-calculator/blob/master/README.md
-
-### REPOSITORY
-https://github.com/ampaire/react-calculator
 
 ### 👤 **AUTHOR**
 - Github-> [@ampaire](https://github.com/ampaire)
