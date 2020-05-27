@@ -17,8 +17,8 @@ body {
 
 .display {
   background-color: grey;
-  color: #fff;
-  direction: rtl;
+  color: #fff;  
+  text-align: right;
   flex-direction: row;
   font-size: 50px;
   font-weight: bold;
