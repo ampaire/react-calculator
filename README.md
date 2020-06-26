@@ -6,11 +6,11 @@
 
 
 ## INTRODUCTION
-In this project you will learn how to build a very simple React application. You will work in a real-world project for a fictional company that requires your help. The project has been split into multiple milestones, and each milestone has functional and technical requirements that you will need to implement.
+In this project, I learnt how to build a very simple React application. It is a real-world project for a fictional company that requires my help. The project was split into multiple milestones, and each milestone had functional and technical requirements that I needed to implement.
 
 ### OBJECTIVE
 
-Math-magicians is a fictional company based in France. They have requested your help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
+Math-magicians is a fictional company based in France. They have requested my help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
 
 ## [Demo Link](https://magic-calculator.netlify.app/)
 
