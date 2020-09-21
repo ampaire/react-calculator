@@ -40,7 +40,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
 
-##### QUick start
+##### Quick start
 ```
 npx create-react-app my-app
 cd my-app
@@ -141,7 +141,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-#### #CODE SPLITTING
+#### CODE SPLITTING
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
