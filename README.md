@@ -12,7 +12,7 @@ In this project, I learnt how to build a very simple React application. It is a 
 
 Math-magicians is a fictional company based in France. They have requested my help to build a simple product that would assist them with their calculations. An important thing to notice is that they have asked for a product that is not just fully-functional, but also beautiful and user-friendly.
 
-## [Demo Link](https://magic-calculator.netlify.app/)
+## [Demo Link](https://magik-calculator.netlify.app/)
 
 ### TOOLS
 - Node.js
